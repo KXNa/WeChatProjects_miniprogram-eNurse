@@ -1,0 +1,32 @@
+{
+   "pages": [
+      "pages/logs/logs",
+      "pages/index/index"
+      
+   ],
+   "tabBar": {
+      "color":"#e3bfbe",
+      "selectedColor":"#c37d7d",
+     "list": [
+        {
+       "pagePath": "pages/index/index",
+       "text": "首页",
+       "iconPath": "images/home.png",
+       "selectedIconPath": "images/select-home.png"
+     },
+        {
+       "pagePath": "pages/logs/logs",
+       "text": "日志",
+       "iconPath": "images/search.png",
+       "selectedIconPath": "images/select-search.png"
+     }
+     ]
+   },
+   "window": {
+      "backgroundTextStyle": "light",
+      "navigationBarBackgroundColor": "#feb6b7",
+      "navigationBarTitleText": "E·Nurse",
+      "navigationBarTextStyle": "white"
+   },
+   "sitemapLocation": "sitemap.json"
+}
